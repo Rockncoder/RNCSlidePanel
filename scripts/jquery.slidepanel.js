@@ -2,10 +2,6 @@
 (function ($, window, document, undefined) {
   /* Create the defaults once */
   var pluginName = "slidePanel",
-    display = {
-      width:$(window).width(),
-      height:$(window).height()
-    },
     defaults = {
       side: 'left',
       top: '60px',
