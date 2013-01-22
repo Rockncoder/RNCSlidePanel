@@ -1,0 +1,28 @@
+
+#panel {
+    position: absolute;
+    width: 260px;
+    background-color: #333;
+    border-right: 20px #333 solid;
+    border-left: 20px #333 solid;
+
+    -webkit-border-top-right-radius: 10px;
+    -moz-border-top-right-radius: 10px;
+    border-top-right-radius: 10px;
+
+    -webkit-border-bottom-right-radius: 10px;
+    -moz-border-bottom-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+    -webkit-border-top-left-radius: 10px;
+    -moz-border-top-left-radius: 10px;
+    border-top-left-radius: 10px;
+
+    -webkit-border-bottom-left-radius: 10px;
+    -moz-border-bottom-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+    z-index: 100;
+    padding: 0;
+    margin: 0;
+}

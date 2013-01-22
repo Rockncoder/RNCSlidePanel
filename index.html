@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+	<title>RNC Slider Panel</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta name="apple-mobile-web-app-capable" content="yes"/>
+	<link rel="shortcut icon" href="favicon.ico" />
+	<!-- iPhone & Android 2.2+ -->
+	<link rel="apple-touch-icon" href="icons/RnCIcon57x57.png">
+	<!- - iPhone 4 retina display -->
+	<link rel="apple-touch-icon" sizes="114x114" href="icons/RnCIcon114x114.png">
+	<!-- iPad & iPad 2 -->
+	<link rel="apple-touch-icon" sizes="72x72" href="icons/RnCIcon72x72.png" />
+	<!-- iPad retina display -->
+	<link rel="apple-touch-icon" sizes="144x144" href="icons/RnCIcon144x144.png" />
+	<!-- iPhone -->
+	<link rel="apple-touch-startup-image" media="(device-width: 320px)" href="icons/RnCSplash320x460.png">
+	<!-- iPhone (Retina) -->
+	<link rel="apple-touch-startup-image"
+	      media="(device-width: 320px) and (-webkit-device-pixel-ratio: 2)"
+	      href="icons/RnCSplash640x920.png">
+	<link rel="stylesheet" type="text/css" href="content/jquery.mobile-1.1.1.min.css" />
+	<link rel="stylesheet" type="text/css" href="content/style.css" />
+  <link rel="stylesheet" type="text/css" href="content/jquery.slidepanel.css" />
+	<script src="scripts/jquery-1.7.1.min.js" type="text/javascript"></script>
+	<script src="scripts/jquery.mobile-1.1.1.min.js" type="text/javascript"></script>
+</head>
+<body>
+	<div id="page1" data-role="page" data-rockncoder-jspage="page1">
+    <header data-role="header">
+      <h1>RNC Slide Panel</h1>
+    </header>
+		<section data-role="content" style="margin: 25px;">
+      <div>This app doesn't do anything.</div>
+		</section>
+		<!-- panels always start hidden -->
+		<div id="panel" class="panel" >
+      <div data-role="navbar" class='ui-body-b' data-theme='a'>
+        <ul data-theme='b'>
+          <li><a href="" data-role="button" data-iconpos="notext" data-icon="minus"></a></li>
+          <li><a href="" data-role="button" data-iconpos="notext" data-icon="plus"></a></li>
+          <li><a href="" data-role="button" data-iconpos="notext" data-icon="check"></a></li>
+          <li><a href="" data-role="button" data-iconpos="notext" data-icon="gear"></a></li>
+        </ul>
+      </div>
+		</div>
+	</div>
+	<script type="text/javascript" src="scripts/app.js"></script>
+  <script type="text/javascript" src="scripts/jquery.slidepanel.js"></script>
+</body>
+</html>
